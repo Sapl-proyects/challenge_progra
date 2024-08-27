@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge encriptador de texto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Encriptador de Texto</h1>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="text" id="inputText" placeholder="Escribe el texto aquí">
+            <div class="buttons">
+                <button id="encryptButton" onclick="encryptText()">Encriptar</button>
+                <button id="decryptButton" onclick="decryptText()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="result-group">
+            <textarea id="resultText" rows="5" placeholder="Aquí aparecerá el resultado..."></textarea>
+            <button id="copyButton" onclick="copyText()">Copiar</button>
+        </div>
+    </div>
+</div>
+<label class="mensaje-validacion">Mayúsculas y carácteres especiales no están permitidos</label>
+<footer>
+	Creado por Sebastian Porflit - 2024
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>

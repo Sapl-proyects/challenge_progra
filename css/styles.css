@@ -1,0 +1,101 @@
+/* Estilos básicos */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Estilos del título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Organización del formulario */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.result-group {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+textarea, input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mensaje-validacion {
+	text-align:center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+}
+
+#encryptButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#decryptButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#copyButton {
+    background-color: #008CBA;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer fijo en el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: auto;
+}
